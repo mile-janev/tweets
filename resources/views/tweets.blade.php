@@ -77,12 +77,24 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <a href="{{ url("/tweets") }}">Calculate tweets reach</a>
+            <div class="container content">
+                <form method="GET" name="form-tweets" action="{{ url("/tweets") }}" class="form-horizontal">
+                    <div class="row form-group">
+                        <div class="col-xs-12">
+                            <label for="term">Enter Twitter URL</label>
+                        </div>
                     </div>
-                </div>
+                    <div class="row form-group">
+                        <div class="col-xs-12">
+                            <input id="term" type="text" name="term" value="<?= $term ?>" style="width: 300px" />
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-xs-12">
+                            <input type="submit" value="Calculate" class="btn btn-success" />
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </body>
