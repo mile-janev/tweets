@@ -239,6 +239,20 @@ class ComposerStaticInit3487d52965d584f2f7e7946c9cd78c4e
     );
 
     public static $prefixesPsr0 = array (
+        't' => 
+        array (
+            'tmhOAuth' => 
+            array (
+                0 => __DIR__ . '/..' . '/themattharris/tmhoauth',
+            ),
+        ),
+        'T' => 
+        array (
+            'Thujohn\\Twitter' => 
+            array (
+                0 => __DIR__ . '/..' . '/thujohn/twitter/src',
+            ),
+        ),
         'P' => 
         array (
             'Prophecy\\' => 
@@ -3239,6 +3253,22 @@ class ComposerStaticInit3487d52965d584f2f7e7946c9cd78c4e
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
+        'Thujohn\\Twitter\\Facades\\Twitter' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Facades/Twitter.php',
+        'Thujohn\\Twitter\\Traits\\AccountTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/AccountTrait.php',
+        'Thujohn\\Twitter\\Traits\\BlockTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/BlockTrait.php',
+        'Thujohn\\Twitter\\Traits\\DirectMessageTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/DirectMessageTrait.php',
+        'Thujohn\\Twitter\\Traits\\FavoriteTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/FavoriteTrait.php',
+        'Thujohn\\Twitter\\Traits\\FriendshipTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/FriendshipTrait.php',
+        'Thujohn\\Twitter\\Traits\\GeoTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/GeoTrait.php',
+        'Thujohn\\Twitter\\Traits\\HelpTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/HelpTrait.php',
+        'Thujohn\\Twitter\\Traits\\ListTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/ListTrait.php',
+        'Thujohn\\Twitter\\Traits\\MediaTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/MediaTrait.php',
+        'Thujohn\\Twitter\\Traits\\SearchTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/SearchTrait.php',
+        'Thujohn\\Twitter\\Traits\\StatusTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/StatusTrait.php',
+        'Thujohn\\Twitter\\Traits\\TrendTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/TrendTrait.php',
+        'Thujohn\\Twitter\\Traits\\UserTrait' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Traits/UserTrait.php',
+        'Thujohn\\Twitter\\Twitter' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/Twitter.php',
+        'Thujohn\\Twitter\\TwitterServiceProvider' => __DIR__ . '/..' . '/thujohn/twitter/src/Thujohn/Twitter/TwitterServiceProvider.php',
         'TijsVerkoyen\\CssToInlineStyles\\CssToInlineStyles' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/CssToInlineStyles.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Processor.php',
@@ -3315,6 +3345,7 @@ class ComposerStaticInit3487d52965d584f2f7e7946c9cd78c4e
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'tmhOAuth' => __DIR__ . '/..' . '/themattharris/tmhoauth/tmhOAuth.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
